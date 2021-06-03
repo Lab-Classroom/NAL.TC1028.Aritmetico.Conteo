@@ -1,6 +1,6 @@
 ![Tec de Monterrey](images/logotecmty.png)
-# Hello World!
-Básico-Hello World
+# Conteo de números
+Conteo de numero.
 
 El programa contiene el siguiente código
 
@@ -13,15 +13,29 @@ if __name__ == '__main__':
 ```
 
 La línea 
-The line `#escribe tu código abajo de esta línea` es un comentario, el programa la va a ignorar al ejecutarse.
+The line `#escribe tu código abajo de esta línea` es un comentario y el programa lo ignorar al ejecutarse.
 
-Agrega una nueva línea abajo del comentario con el código para imprimir `Hello World!` y ejecuta el programa.
+Agrega una nueva línea abajo del comentario e implementa la solución del siguiente problema:
 
-La salida del proframa debe de ser exactamente de la siguiente forma:
+Escribe un progrma que lea un entero dado por el usuario. Despues, el program imprime en consola los números de 0 hasta el número dado por el usuario. Puedes sumir que el usuario siempre da números positivos.
+
+Algunos casos de prueba esperada de la funcionalidad de tu programa es:
 
 ```plaintext
-Hello World
+**4**
+0
+1
+2
+3
+4
 ```
+
+```plaintext
+**1**
+0
+1
+```
+
 
 **Nota:** No te preocupes por esta parte del código `if __name__ == '__main__':` por el momento. No la vamos a necesitar para este programa, pero es una buena práctica incluirla y quedará más claro para que sirve en los siguientes ejercicios.
 
